@@ -1,0 +1,28 @@
+/* src/TaskCompleted.css */
+.completed-task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .completed-task-list li {
+    display: flex;
+    text-decoration:line-through;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 1em;
+    margin-left: 0.5em;
+  }
+  
+  .delete-button:hover {
+    color: #ff4d4d;
+  }
+  
